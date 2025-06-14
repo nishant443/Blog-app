@@ -17,4 +17,11 @@ A backend-only blog application built using **Node.js**, **Express**, and **Mong
 - **Environment Variables**: `.env` for config values (e.g., MongoDB URI, port)
 
 ## 📁 Project Structure
-
+Blog-app/
+├── config/ # MongoDB connection setup
+├── controllers/ # Business logic for posts, comments, likes
+├── models/ # Mongoose schemas
+├── routes/ # Express routes
+├── index.js # Entry point of the app
+├── .env # Environment variables
+├── package.json
